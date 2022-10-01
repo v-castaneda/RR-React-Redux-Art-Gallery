@@ -6,7 +6,7 @@ function Nav() {
     const mode = useSelector((state) => state.mode)
 
     return (
-        <div className="Nav" style={{'backgroundColor': 'white'}}>
+        <div className="Nav" style={{'backgroundColor': mode.color3}}>
             <NavLink content="Blog" />
             <NavLink content="About Me" />
             <NavLink content="Projects" />
